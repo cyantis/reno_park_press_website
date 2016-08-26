@@ -1,0 +1,92 @@
+body {
+    font-family: 'Noto Serif', serif;
+    width: 70%;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+header {
+
+}
+
+h1,
+h3 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+    font-style: italic;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 1em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#content {
+  margin-bottom: 75px;
+  min-height: 100%;
+}
+
+footer {
+    font-family: 'Inconsolata', monospace;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5em;
+    text-align: center;
+    height: 5%;
+    background-color: rgba(255,255,255,.85);
+    height: 30px;
+}
+
+footer hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width : 992px){
+  body {
+    width: 80%;
+    font-size: 1.25em;
+  }
+  footer {
+    height: 10%;
+  }
+  #content {
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width : 768px){
+  body {
+    width: 95%;
+    font-size: 1.5em;
+  }
+}
