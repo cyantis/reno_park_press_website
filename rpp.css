@@ -5,38 +5,21 @@ body {
     min-width: 320px;
 }
 
-header {
-
+h1, h2, h3 {
+    font-family: 'Inconsolata', monospace;
 }
 
-h1,
-h3 {
-    font-family: 'Inconsolata', monospace;
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  padding-top: .5em;
 }
 
 h3 {
     font-style: italic;
-}
-
-
-
-nav ul {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-    justify-content: center;
-}
-
-nav ul li {
-    padding: 1em;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 900;
-    font-size: 1.25em;
+    color: tomato;
 }
 
 a {
